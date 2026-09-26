@@ -385,11 +385,11 @@ The extracted data is saved to a file, which can then be processed by John.
 
 ---
 
-### Networkwalks Online Hash Calculator and Password Cracker
+# Networkwalks Online Hash Calculator and Password Cracker
 
 In addition to using John the Ripper in Kali Linux, I also tested the password recovery process using the external tools provided by Networkwalks. The process consisted of two steps: first generating the hash information from the PDF file, and then using the generated hash with the Networkwalks password cracker to recover the password.
 
-#### 1 Networkwalks Hash Calculator
+## 1 Networkwalks Hash Calculator
 
 The first step was performed using the Networkwalks Hash Calculator:
 
@@ -399,9 +399,9 @@ I uploaded the password-protected PDF file to the Hash Calculator and used the t
 
 **Evidence:** Insert the screenshot of the Networkwalks Hash Calculator result here.
 
-[NETWORKWALKS HASH CALCULATOR SCREENSHOT ](image/nwhc.png)
+![NETWORKWALKS HASH CALCULATOR SCREENSHOT ](image/nwhc.png)
 
-#### 2 Networkwalks Password Cracker
+## 2 Networkwalks Password Cracker
 
 After obtaining the hash, I used the Networkwalks Password Cracker:
 
@@ -411,11 +411,11 @@ The generated hash was provided to the password-cracking tool. The tool performe
 
 **Evidence:** Insert the screenshot of the Networkwalks Password Cracker result here.
 
-[ NETWORKWALKS PASSWORD CRACKER SCREENSHOT ](image/nwpc.png)
+![ NETWORKWALKS PASSWORD CRACKER SCREENSHOT ](image/nwpc.png)
 
-[ NETWORKWALKS PASSWORD CRACKER SCREENSHOT ](image/nwpc2.png)
+![ NETWORKWALKS PASSWORD CRACKER SCREENSHOT ](image/nwpc2.png)
 
-#### 3 Comparison with John the Ripper
+## 3 Comparison with John the Ripper
 
 This activity provided an opportunity to perform the same general password-recovery workflow using two different approaches. John the Ripper was used locally in Kali Linux, while the Networkwalks tools provided a web-based workflow consisting of hash generation followed by password cracking.
 
