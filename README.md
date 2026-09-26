@@ -574,9 +574,9 @@ The video shows the process of extracting the hash and using John the Ripper to 
 
 ### Video
 
-**John the Ripper Password Recovery Demonstration**
+**John the Ripper Password Recovery Demonstration is in my linkdin post**
 
-[▶️Demonstration](video/demo.mp4)
+[Linkdin_post](https://lnkd.in/p/giWBFMnj)
 
 ---
 
